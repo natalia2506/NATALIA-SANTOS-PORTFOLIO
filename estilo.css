@@ -22,7 +22,7 @@ li{
     padding: 8px;
     padding-bottom: 32px;
     padding-top: 32px;
-    background-color: blueviolet;
+    background-color: #724796;
 }
 
 .header-menu nav{
@@ -35,6 +35,7 @@ li{
     display: flex;
     justify-content: space-evenly;
     width: 50%;
+    align-items: center;
 }
 
 .lista-menu li>a {
@@ -55,6 +56,7 @@ li{
 .subcontainer-principal{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -62,6 +64,7 @@ li{
 .container{
     margin-right: auto;
     margin-left: auto;
+    margin-top: 200px;
     max-width: 960px;
     padding-right: 10px;
     padding-left: 10px;
@@ -70,33 +73,34 @@ li{
 
 .nome-completo{
     font-size: 36px;
-    color: blue;
+    color:#ff4dbc;
     font-weight: 700;
     height: 45px;
 }
 
-.profissao{
-    color: brown;
-    line-height: 32px;
-
-}
 
 .texto-sobre{
     font-size:20px ;
     line-height: 32px;
 }
 
-.section-lista{
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    margin-bottom: 100px;
+.profissao{
+    color: #C6B5D5;
+    height: 60px;
+
 }
+
 
 .topico-principal{
     font-size: 36px;
-    color: aquamarine;
+    color:#ff4dbc;
 
+}
+
+.section-lista{
+    display: flex;
+    margin-bottom: 200px;
+    flex-direction: column;
 }
 
 .lista-item{
@@ -104,25 +108,57 @@ li{
 
 }
 
+.lista-item ul li{
+    margin-bottom: 32px;
+
+}
+
 .lista-titulo{
     margin-bottom: 5px;
     font-size: 22px;
-    color: blue;
-   
+    color: #661e4b;
+    font-weight:700;
 }
 
-.wrapper-portfolio{
-    background-color: antiquewhite;
+.lista-local{
+    font-size: 18px;
+    color: #2F80ED;
+}
+
+.lista-descricao{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #828282;
+    font-weight: 300;
+}
+
+.formacao{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.projetos{
+    background-color: #EAEAEA;
     display: flex;
     flex-direction: column;
 }
 
 
+.container-footer{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
 
 
 .footer{
-    background-color: rgb(211, 214, 213);
-    height: 30vh;
+    background-color: #724796;
+    height: 150px;
     display: flex;
     align-items: center;
 }
@@ -138,10 +174,18 @@ li{
 }
 
 .lista-footer li {
-    color: #fff;
+    color: #FFFF;
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 16px;
     display: flex;
     align-items: center;
+}
+
+
+.wrapper-portfolio{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+
 }
